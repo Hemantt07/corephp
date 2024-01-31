@@ -3,12 +3,10 @@
  * This is the main page
  */
 
-include('src/partials/header.php')
+include('src/header.php'); 
 
-?>
-    
-<?php 
+include('src/partials/home-slider.php'); 
 
-include('src/partials/footer.php')
+include('src/partials/famous-things.php'); 
 
-?>
+include('src/footer.php'); ?>

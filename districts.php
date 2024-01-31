@@ -3,12 +3,12 @@
  * This is the district page
  */
 
-include('src/partials/header.php')
+include('src/header.php')
 
 ?>
     
 <?php 
 
-include('src/partials/footer.php')
+include('src/footer.php')
 
 ?>
