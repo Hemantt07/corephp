@@ -12,7 +12,7 @@
 <body class="main">
     <header class="header">
         <div class="row justify-content-center ">
-            <div class="logoWrap col-md-4 py-3">
+            <div class="logoWrap col-10 col-md-4 py-3 px-0">
                 <a href="/">
                     <div class="logo d-flex justify-content-center align-items-center">
                         <img src="assets/images/map_view.jpg" alt="Himachal Pradesh : Dev Bhoomi">
@@ -20,12 +20,15 @@
                     </div>
                 </a>
             </div>
-            <div class="navWrapper col-md-7">
-                <nav class="w-100">
-                    <span class="toggleBar">
+            <div class="navWrapper col-2 col-md-7">
+                <nav class="w-100 d-flex">
+                    <span class="toggleBar" id="toggleBar">
                         <i class="fa-solid fa-bars"></i>
                     </span>
                     <ul class="nav w-100 justify-content-end">
+                        <span id="close" class="d-md-none">
+                            <i class="fa-regular fa-square-minus"></i>
+                        </span>
                         <li class="link">
                             <a href="#">About</a>
                         </li>

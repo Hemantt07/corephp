@@ -2,6 +2,7 @@
 
 :root {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 * {
@@ -55,8 +56,6 @@ header.header .logoWrap .logo .title {
 
 .header .navWrapper nav span.toggleBar {
   display: none;
-  color: #fff;
-  font-size: 18px;
 }
 
 .header .navWrapper nav li.link {
@@ -170,7 +169,8 @@ header.header .logoWrap .logo .title {
   color: var(--darkGreen);
   padding-bottom: 10px;
   position: relative;
-  width: max-content;
+  width: 100%;
+  max-width: max-content;
   margin-bottom: 2.3rem;
 }
 
@@ -200,9 +200,18 @@ header.header .logoWrap .logo .title {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.58);
   padding: 20px;
   margin-bottom: 3rem;
+  border-radius: 5px;
 }
 
-.text-block ul.list li {
+.image-text .img-block img {
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.image-text .text-block ul.list li {
   font-size: 18px;
   color: #4b4b4b;
   line-height: 1.3;
