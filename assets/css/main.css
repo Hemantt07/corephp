@@ -217,6 +217,88 @@ header.header .logoWrap .logo .title {
   line-height: 1.3;
 }
 
+.districts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+}
+
+.districts .district {
+  position: relative;
+  box-shadow: 0 0 20px 2px #00000045;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.districts .district:hover .content {
+  top: 0;
+}
+
+.districts .district:hover h2 {
+  bottom: 100%;
+}
+
+.districts .district h2 {
+  position: absolute;
+  bottom: 0%;
+  background: #00000075;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  padding: 7px 0;
+  transition: all .5s;
+}
+
+.districts .district .content {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #00000075;
+  color: #fff;
+  transition: all .5s;
+}
+
+.districts .district .content h3 {
+  margin-bottom: 1rem;
+  font-size: 38px;
+}
+
+.districts .district .content p {
+  text-align: center;
+  width: 90%;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.img-fluid {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer.footer {
   background-color: var(--darkGreen);
   height: 70px;

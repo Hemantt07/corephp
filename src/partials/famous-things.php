@@ -1,8 +1,6 @@
 <hr class="my-5 container">
 <div class="famous-things container">
-    <h2 class="mainHead mx-auto">
-        What is Himachal Pradesh for ?
-    </h2>
+    <h2 class="mainHead mx-auto">What is Himachal Pradesh for ?</h2>
 
     <div class="image-text text-left row">
         <div class="col-md-7 align-items-center d-flex">
