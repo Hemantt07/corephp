@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Himachal Pradesh : Dev Bhoomi</title>
-    <meta name="description" content="Where Majestic Mountains Meet Serene Valleys: Discover the Heart and Soul of Himachal Pradesh.">
+    <?php include('partials/metatags.php') ?>
+    <link rel="shortcut icon" href="/assets/images/favicon.jpg" type="image/x-icon">
     <?php include('partials/stylesheets.php') ?>
-
 </head>
 
 <body class="main">

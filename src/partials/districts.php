@@ -1,4 +1,4 @@
-<div class="districts pt-5">
+<div class="districts pt-2 pt-md-5">
     <div class="district">
         <a href="/districts/kangra">
             <img src="/assets/images/kangra-fort.jpg" alt="Kagra Fort" class="img-fluid">
