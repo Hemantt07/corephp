@@ -15,7 +15,7 @@
             <div class="logoWrap col-10 col-md-4 py-3 px-0">
                 <a href="/">
                     <div class="logo d-flex justify-content-center align-items-center">
-                        <img src="assets/images/map_view.jpg" alt="Himachal Pradesh : Dev Bhoomi">
+                        <img src="/assets/images/map_view.jpg" alt="Himachal Pradesh : Dev Bhoomi">
                         <h1 class="title m-0">Discover the Heart <br/>and Soul of <br/>Himachal Pradesh</h1>
                     </div>
                 </a>
@@ -30,16 +30,16 @@
                             <i class="fa-regular fa-square-minus"></i>
                         </span>
                         <li class="link">
-                            <a href="#">About</a>
+                            <a href="/districts">Districts</a>
                         </li>
                         <li class="link">
-                            <a href="/districts.php">Districts</a>
+                            <a href="/about">About</a>
                         </li>
                         <li class="link">
-                            <a href="#">Education</a>
+                            <a href="/education">Education</a>
                         </li>
                         <li class="link">
-                            <a href="#">Temples</a>
+                            <a href="/temples">Temples</a>
                         </li>
                     </ul>
                 </nav>

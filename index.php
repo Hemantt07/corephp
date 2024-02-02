@@ -1,12 +1,17 @@
 <?php
+
 /**
- * This is the main page
+ * 
  */
 
-include('src/header.php'); 
+$address = $_SERVER['REQUEST_URI'];
 
-include('src/partials/home-slider.php'); 
-
-include('src/partials/famous-things.php'); 
-
-include('src/footer.php'); ?>
+if ( !empty($address) ) {
+    if (file_exists('pages' . $address . '.php')) {
+        include('pages' . $address . '.php');
+    } else if( $address === '/' ){
+        include('pages/home.php');
+    } else {
+        include('pages/404.php');
+    }
+} 
