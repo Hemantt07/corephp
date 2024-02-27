@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  setTimeout(() => {
+    $(".site-loader").fadeOut();
+    $(".site-loader").remove();
+  });
+
   $(".owl-carousel").owlCarousel({
     items: 1,
     loop: true,
